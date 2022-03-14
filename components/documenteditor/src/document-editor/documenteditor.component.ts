@@ -66,197 +66,169 @@ export class DocumentEditorComponent extends DocumentEditor implements IComponen
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorSfdtExport');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorWordExport');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorTextExport');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorSelection');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorSearch');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorEditor');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorEditorHistory');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorOptionsPane');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorContextMenu');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorImageResizer');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorHyperlinkDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorTableDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorBookmarkDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorTableOfContentsDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorPageSetupDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorParagraphDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorListDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorStyleDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorStylesDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorBulletsAndNumberingDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorFontDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorTablePropertiesDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorBordersAndShadingDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorTableOptionsDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorCellOptionsDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorSpellChecker');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorSpellCheckDialog');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)
                 }
             } catch { }
-
-        try {
+        try {
                 let mod = this.injector.get('DocumentEditorCollaborativeEditing');
                 if(this.injectedModules.indexOf(mod) === -1) {
                     this.injectedModules.push(mod)

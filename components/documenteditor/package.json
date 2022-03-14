@@ -41,7 +41,7 @@
 		"gulp-sass": "^3.1.0",
 		"gulp-typescript": "^3.1.6",
 		"requirejs": "^2.3.3",
-		"typescript": "2.3.4"
+		"typescript": "3.9.10"
 	},
 	"keywords": [
 		"ej2",
@@ -61,6 +61,9 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/syncfusion/ej2-angular-ui-components.git"
+	},
+	"resolutions": {
+		"graceful-fs": "^4.2.9"
 	},
 	"scripts": {
 		"build": "gulp build"

@@ -16,7 +16,7 @@ gulp.task('scripts', function(done) {
 
     var tsResult = gulp.src(['./**/*.ts','./**/*.tsx', '!./node_modules/**/*.ts','!./node_modules/**/*.tsx'], { base: '.' })
         .pipe(tsProject());
-    tsResult.js.pipe(gulp.dest('./'))
+    tsResult.js.pipe(gulp.dest('dist/scripts'))
         .on('end', function() {
             done();
         });
@@ -32,5 +32,5 @@ gulp.task('styles', function() {
             outputStyle: 'expanded',
             includePaths: './node_modules/@syncfusion/'
         }))
-        .pipe(gulp.dest('.'));
+        .pipe(gulp.dest('dist/sass'));
 });
